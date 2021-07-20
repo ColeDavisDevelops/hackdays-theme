@@ -3,6 +3,12 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand"
+          }
+        },
         "button": {
           "type": "buttons",
           "settings": {
@@ -13,17 +19,11 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
-        },
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand"
-          }
         }
       },
       "block_order": [
-        "button",
-        "heading"
+        "heading",
+        "button"
       ],
       "settings": {
         "desktop_text_box_position": "flex-end",
